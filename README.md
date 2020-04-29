@@ -4,13 +4,13 @@
 Чтобы запустить шифрование используйте команду:
 
 ```
-crypt.exe name_folder_or_file name_file password
+python crypt.py name_folder_or_file name_file password
 ```
 
 Чтобы расшифровать используйте команду:
 
 ```
-decrypt.exe name_folder_or_file name_file password
+python decrypt.py name_folder_or_file name_file password
 ```
 
 Также в одну папку или файл можно зашифровать множество файлов. Эти файлы не будут видны в операционной системе.
