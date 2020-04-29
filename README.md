@@ -1,13 +1,16 @@
 # CryptFiles
 Шифрование файла работает только на Windows, так как эта программа использует фишки файловой системы NTFS.
+Файл шифруется в папку или в файл.
 Чтобы запустить шифрование используйте команду:
 
 ```
-crypt.exe name_file name_folder password
+crypt.exe name_file name_folder_or_file password
 ```
 
 Чтобы расшифровать используйте команду:
 
 ```
-decrypt.exe name_file name_folder password
+decrypt.exe name_file name_folder_or_file password
 ```
+
+Также в одну папку или файл можно зашифровать множество файлов. Эти файлы не будут видны в операционной системе.
