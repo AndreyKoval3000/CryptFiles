@@ -9,9 +9,9 @@ def pad(text):
     return text
 
 
-folder = sys.argv[0]
-file = sys.argv[1]
-password = str(sys.argv[2]).encode("utf-8")
+folder = sys.argv[1]
+file = sys.argv[2]
+password = str(sys.argv[3]).encode("utf-8")
 
 aes = AES.new(pad(password), AES.MODE_ECB)
 
